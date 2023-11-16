@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Fredoka:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-login, .site-signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* .container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 45px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    color: #69906D;
+    font-family: Fredoka;
+    font-size: 180px;
+    font-weight: 700;
+    text-align: center;
+}*/
+
+p {
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+}
+
+.bottom {
+    font-size: 20px;
+}
+ 
+.site-login button,
+.col-lg-5 button {
+    width: 215px;
+    height: 45px;
+    background: rgba(105, 145, 109, 0.90);
+    border: none;
+    color: #000000;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.site-login input,
+.col-lg-5 input {
+    margin-top: 20px;
+    font-family: 'Anonymous Pro', monospace;
+    border: none;
+    width: 468px;
+    height: 50px;
+    background-color: rgba(105, 145, 109, 0.90);
+    color: #000000;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+ @media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-1.control-label {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
